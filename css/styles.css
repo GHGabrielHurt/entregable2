@@ -1,0 +1,228 @@
+/*reset "*" para configurar estilos globales*/
+*{
+    font-family: "Great Vibes", cursive;
+}
+
+/*.nav_test{
+    position: fixed;
+    background-image: url(/preentregable1/Assets/textura.jpg);
+}*/
+.logo{
+
+    height: 60px;
+    width: 100px;
+}
+
+.descripcion{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    color:6F6D6D;
+    text-align: center;
+}
+
+ 
+.banner_img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.banner{
+    display: flex;
+   /* background-image:url(/preentregable1/Assets/grano_cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px;*/
+    text-align: center;
+    margin-top: 76px;
+    border-bottom: solid grey;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+}
+.banner h1{
+    color: white;
+    font-size: 92px;
+    position: absolute;
+    
+}
+
+.cont_redes{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.seccion{
+    display: flex;
+    align-items: center;
+}
+
+.redes_sociales_iconos{
+    
+    height: 20px;
+    width: 20px;
+    display: inline;
+    margin-right: 10px;
+      
+}
+.nuevo{
+    display: flex;
+}
+.footer{
+    background-color: #212429;
+}
+.texto{
+    color: white;
+    font-size:medium;
+}
+.cont_grande{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+   
+    
+}
+.card_nosotros{
+    display:flex ;
+    border: solid grey;
+    border: solid grey;
+    border-radius: 12px;
+}
+
+.img_card{
+    height: 600px;
+    width: 400px;
+    margin: 3px 3px 3px 3px;
+    border-radius: 8px;
+}
+.p_card{
+    display: flex;
+    height: 600px;
+    width: 400px;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    padding: 19px 81px 94px;
+}
+.h1_titulo{
+    margin-top: 83px;
+    margin-left: 15px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.h1_titulo_index{
+    margin-left: 15px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.cont_suc{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.card_suc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 207px;
+    border: solid grey;
+    border-radius: 6px;
+}
+.suc_img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.p_suc{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+}
+.cont_menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+
+}
+.card_menu{
+display: flex;
+}
+.menu_img{
+    display: flex;
+    height: 600px;
+    width: 400px;
+    border: 5px solid grey;
+    border-radius: 24px
+}
+.cont_titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_contacto{
+    display: flex;
+    width: 460px; 
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: grey; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  label{
+    display: block; 
+    float: center;  
+  }
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color:#3270D6; 
+    border-color: grey; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  button p{
+    color: #fff; 
+  }
+  .banner_titulo{
+    font-family: "Great Vibes", cursive;
+    margin-top: 121px;
+  }
